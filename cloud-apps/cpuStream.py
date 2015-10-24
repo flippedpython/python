@@ -4,7 +4,8 @@ from ISStreamer.Streamer import Streamer
 
 # Provide a client_key from local ini file, override buffer and flush for optimal streaming
 #streamer = Streamer(bucket_name="Example Performance Metrics",bucket_key="compute_metrics", buffer_size=100, ini_file_location="./isstreamer.ini", debug_level=1)
-streamer = Streamer(bucket_name="Example Performance Metrics", bucket_key="compute_metrics", access_key="RRMP1DarpoG7JYkZlhUTIeDPr0moXe8P")
+streamer = Streamer(bucket_name="Example Performance Metrics", bucket_key="compute_metrics", 
+access_key="RRMP1DarpoG7JYkZlhUTIeDPr0moXe8P")
 
 sample_rate_in_ms=100
 

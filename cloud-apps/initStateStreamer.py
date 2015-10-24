@@ -1,7 +1,7 @@
 import time
-import ISStreamer.Streamer as streamer
+from ISStreamer.Streamer import streamer
 
-streamer = Streamer(bucket_name="Stream Example", bucket_key="[Place A Unique Bucket Identifier Here]", access_key="[Place Your Access Key Here]")
+streamer = Streamer(bucket_name="Python Streamer", bucket_key="001", access_key="RRMP1DarpoG7JYkZlhUTIeDPrOmoXe8P")
 
 streamer.log("My Messages", "Stream Starting")
 
