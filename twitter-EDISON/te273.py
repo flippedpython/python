@@ -6,10 +6,10 @@ import ssl
 
 import urllib
 print('opening')
-context = ssl._create_unverified_context()
+#context = ssl._create_unverified_context()
 ##urllib.urlopen("https://no-valid-cert",context=context)
 
-ssl._create_default_https_context = ssl._create_unverified_context
+#ssl._create_default_https_context = ssl._create_unverified_context
 
 print('OPENED')
 #######
